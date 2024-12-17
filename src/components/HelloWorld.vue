@@ -17,7 +17,8 @@ export default {
   methods: {
     show() {
       this.$modal.show(DynamicModal, {
-        overlayTransition: 'vm-transition--overlay',
+        // overlayTransition: 'vm-transition--overlay',
+        overlayTransition: '',
         transition: "vm-transition--modal"
       })
     }
